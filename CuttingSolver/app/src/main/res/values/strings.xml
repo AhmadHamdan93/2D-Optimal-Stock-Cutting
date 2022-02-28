@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Cutting Solver</string>
+    <string name="splash_desc">ايجاد الحل الامثل لمسألة تقطيع مخزون</string>
+    <string name="splash_title">مشروع تخرج</string>
+    <string name="menu_saveProject">Save To DataBase</string>
+    <string name="menu_loadProject">Load Project</string>
+    <string name="menu_clear">Clear All Data</string>
+    <string name="menu_expPdf">Export To PDF</string>
+    <string name="menu_expimg">Export To Image</string>
+    <string name="work_panel">Panel</string>
+    <string name="work_stock">Stock Sheets</string>
+    <string name="work_width">Width</string>
+    <string name="work_length">Length</string>
+    <string name="work_qty">Qty</string>
+</resources>

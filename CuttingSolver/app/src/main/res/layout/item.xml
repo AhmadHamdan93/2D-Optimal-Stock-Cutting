@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="35dp" android:id="@+id/item_content"
+    android:baselineAligned="false">
+
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:maxLength="12"
+                android:textSize="10sp"
+                android:inputType="number"
+                android:id="@+id/item_wid"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:maxLength="12"
+                android:inputType="number"
+                android:textSize="10sp"
+                android:id="@+id/item_len"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:maxLength="12"
+                android:textSize="10sp"
+                android:inputType="number"
+                android:id="@+id/item_qty"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:clickable="true"
+            android:id="@+id/item_clear"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:focusable="true">
+
+            <ImageView
+                android:visibility="gone"
+                android:src="@drawable/close"
+                android:layout_gravity="center|bottom"
+                android:id="@+id/item_img"
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:contentDescription="@string/splash_title" />
+
+        </LinearLayout>
+
+
+
+</LinearLayout>
